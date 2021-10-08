@@ -1,0 +1,80 @@
+header{
+    max-width: 100%;
+    display: flex;
+    background-color: blue;
+    height: 40px;
+    position: sticky;
+}
+body{
+    margin: 0;
+    max-width: 100%;
+}
+header span ,header .liens,header img {
+   margin: 0 1%;
+}
+
+header img{
+    position: absolute;
+    top: 0.5%;
+    left: 88%;
+    opacity: 0.6;
+}
+header img:hover{
+    opacity: 1;
+}
+.liens a{
+    margin-left: 5%;
+    color: white;
+    text-decoration: none;
+}
+.liens{
+    display: flex;
+}
+span a{
+    color: white;
+    text-decoration: none;
+}
+span a:hover ,.liens a:hover{
+    transform: scale(1.1);
+}
+
+form{
+    width: 25%;
+}
+form .input1{
+    width: 80%;
+    border-bottom-left-radius: 10%;
+    border-top-left-radius: 10%;
+    outline: none;
+}
+form .input2{
+    width: 30%;
+    margin-left: -30%;
+    
+}
+
+.carte p,.carte h2{
+    position: relative;
+}
+.carte img{
+    float: left;
+    transition: 2s;
+}
+.carte{
+    border: solid;
+    width: 70%;
+    height: 200px;
+    margin: 50px auto;
+    font-family:monospace
+
+}
+.carte img:hover{
+    width: 2%;
+}
+footer{
+    background-color: blue;
+    text-align: center;
+    height: 50px;
+    color: white;
+    font-family: fantasy;
+}
